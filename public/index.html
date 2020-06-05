@@ -26,7 +26,14 @@
     -->
     <title>Frontend Mentor | Clipboard landing page</title>
 
-    <script src="https://kit.fontawesome.com/a3fce47b97.js" crossorigin="anonymous"></script>
+    <script>
+      document.cookie = "same-site-cookie=foo; SameSite=Lax";
+      document.cookie = "cross-site-cookie=bar; SameSite=None; Secure";
+    </script>
+    <script
+      src="https://kit.fontawesome.com/a3fce47b97.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
