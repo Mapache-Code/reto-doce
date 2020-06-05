@@ -1,0 +1,37 @@
+.main {
+  background: url("../../images/bg-header-mobile.png") top center no-repeat;
+  background-size: 100%;
+  padding: 6em 0 4em;
+  text-align: center;
+}
+
+.main img {
+  margin-bottom: 3.2em;
+}
+
+.main__title {
+  font-size: 1.7em;
+}
+
+.main__text {
+  margin: 1em 0 0;
+  font-size: 0.9em;
+  line-height: 1.7em;
+}
+
+@media only screen and (min-width: 1440px) {
+  .main {
+    background: url("../../images/bg-header-desktop.png") top center no-repeat;
+    background-size: 100%;
+  }
+
+  .main__title {
+    font-size: 2.6em;
+  }
+
+  .main__text {
+    width: 56%;
+    margin: 1em auto 0;
+    font-size: 1.2em;
+  }
+}

@@ -1,0 +1,11 @@
+.download {
+  padding: 2.4em 0 10em;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1440px) {
+  .download p {
+    width: 45%;
+    margin: 1em auto;
+  }
+}

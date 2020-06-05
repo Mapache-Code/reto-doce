@@ -1,0 +1,20 @@
+.devices {
+  padding: 4em 0 2.8em;
+  text-align: center;
+}
+
+.devices img {
+  margin: 3.2em 0 0;
+}
+
+@media only screen and (min-width: 1440px) {
+  .devices p {
+    width: 45%;
+    margin: 1em auto;
+  }
+
+  .devices img {
+    width: initial;
+    height: initial;
+  }
+}

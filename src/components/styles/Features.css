@@ -1,0 +1,44 @@
+.features {
+  padding: 6em 0 4em;
+  text-align: center;
+}
+
+.features img {
+  margin: 3.6em 0 2.8em;
+}
+
+.features__item {
+  margin-bottom: 2.8em;
+}
+
+@media only screen and (min-width: 1440px) {
+  .features p {
+    width: 45%;
+    margin: 1em auto;
+  }
+
+  .features__itemsBox {
+    height: 800px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 600px;
+    position: relative;
+    text-align: left;
+  }
+
+  .features__itemsBox img {
+    width: initial;
+    height: initial;
+    position: absolute;
+    left: -100px;
+  }
+
+  .features__itemsBox div {
+    grid-column-start: 2;
+  }
+
+  .features__itemsBox div .features__item p {
+    width: 58%;
+    margin: 1em 0;
+  }
+}

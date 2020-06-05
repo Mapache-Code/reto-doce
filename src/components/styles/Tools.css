@@ -1,0 +1,30 @@
+.tools {
+  padding: 2em 0 2.8em;
+  text-align: center;
+}
+
+.tools__itemsBox {
+  margin-top: 4.8em;
+}
+
+.tools__item {
+  margin-bottom: 3.2em;
+}
+
+.tools__item img {
+  margin-bottom: 1.4em;
+}
+
+@media only screen and (min-width: 1440px) {
+  .tools__itemsBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tools__itemsBox p {
+    width: 76%;
+    margin: 1em auto;
+  }
+}
